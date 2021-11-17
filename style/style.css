@@ -207,6 +207,11 @@ img {
   background-color: #fff;
 }
 
+.item:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px #a88e79;
+}
+
 .image {
   overflow: hidden;
   border-radius: 10px 10px 0 0;
@@ -215,9 +220,7 @@ img {
 
 .image img {
   width: 100%;
-  /* width: 270px;
-  height: 235px;
-  object-fit: cover; */
+  object-fit: cover;
 }
 
 .summary {
@@ -232,6 +235,13 @@ img {
 .title {
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+.catalog-items .card .item .summary{
+  display: flex;
+  align-self: center;
+  font-size: 18px;
+  margin-bottom: 16px;
 }
 
 .ingredients {
