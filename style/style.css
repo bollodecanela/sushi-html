@@ -328,4 +328,45 @@ img {
 }
 
 .footer_right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay{
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+}
+
+.pay span{
+  margin-left: 32px;
+}
+
+.pay .payment_system{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment_system img{
+  width: 64px;
+  padding: 8px;
+}
+
+.insta{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.insta a{
+  display: flex;
+  align-self:center;
+  padding-bottom: 20px;
+  color: #e0b089;
+  font-size: 32px;
+}
+
+.insta a:hover{
+  color: #004635;
 }
