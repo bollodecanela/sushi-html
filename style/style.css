@@ -230,6 +230,11 @@ img {
   flex-wrap: wrap;
 }
 
+.catalog .cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
   max-width: 25%;
   margin-bottom: 1.5rem;
@@ -333,8 +338,6 @@ img {
 }
 
 .pay{
-  display: flex;
-  flex-direction: column;
   padding-right: 25px;
 }
 
@@ -360,9 +363,8 @@ img {
 }
 
 .insta a{
-  display: flex;
   align-self:center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: #e0b089;
   font-size: 32px;
 }
