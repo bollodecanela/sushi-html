@@ -4,8 +4,16 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+a{
+  text-decoration-line: none;
+}
+
 img {
   pointer-events: none;
+}
+
+.owl-dots {
+  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -201,7 +209,7 @@ img {
 .catalog h4{
   font-size: 36px;
   text-align: center;
-  margin: 12px 0 36px;
+  margin: 36px 0 36px;
   color: #34362e;
 }
 
@@ -269,15 +277,21 @@ img {
 .summary {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  flex-grow: 1;
   padding: 0 15px 0 15px;
+  color: #34362e;
+}
+
+.summary a{
   color: #34362e;
 }
 
 .title {
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+.title a:hover{
+  text-decoration-line: underline;
 }
 
 .catalog-items .card .item .summary{
@@ -291,6 +305,45 @@ img {
   font-size: 12px;
   line-height: 1, 5;
   flex-grow: 1;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.value{
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #005d48;
+}
+
+.price-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pr{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bottom button{
+  padding: 9.5px 15px;
+ border-radius: 60px;
+ border-width: 1.5px;
+ border-color: #005d48;
+ color: #005d48;
+ background-color: #fff;
+}
+
+.bottom button:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #005d48;
 }
 
 .footer {
