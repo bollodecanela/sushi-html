@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header__logo header-item">
+          <img width="120" src="images/logo.png" alt="logo" />
+          <div class="name">
+            <h1>fuji sushi</h1>
+            <p>Пол...суши это лава</p>
+          </div>
+        </div>
+        <ul class="nav-bar link-animate header-item">
+          <li><a href="">Главная</a></li>
+          <li><a href="">Оплата и доставка</a></li>
+          <li><a href="">О нас</a></li>
+          <li><a href="">Акции</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="menu">
+        <div class="container">
+          <ul class="menu-bar link-animate">
+            <li><a href="">Суши</a></li>
+            <li><a href="">Роллы</a></li>
+            <li><a href="">Сеты</a></li>
+            <li><a href="">Гунканны</a></li>
+            <li><a href="">Сашими</a></li>
+            <li><a href="">Супы</a></li>
+            <li><a href="">Салаты</a></li>
+            <li><a href="">Десерты</a></li>
+            <li><a href="">Напитки</a></li>
+            <li><a href="">Комплектующие</a></li>
+          </ul>
+          <div class="menu-cart">
+            <a href="/cart.html" class="button button-cart">
+              <span>520 ₽</span>
+              <div class="button-delimiter"></div>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.33333 16.3333C7.06971 16.3333 7.66667 15.7364 7.66667 15C7.66667 14.2636 7.06971 13.6667 6.33333 13.6667C5.59695 13.6667 5 14.2636 5 15C5 15.7364 5.59695 16.3333 6.33333 16.3333Z"
+                  stroke="white"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M14.3333 16.3333C15.0697 16.3333 15.6667 15.7364 15.6667 15C15.6667 14.2636 15.0697 13.6667 14.3333 13.6667C13.597 13.6667 13 14.2636 13 15C13 15.7364 13.597 16.3333 14.3333 16.3333Z"
+                  stroke="white"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4.78002 4.99999H16.3334L15.2134 10.5933C15.1524 10.9003 14.9854 11.176 14.7417 11.3722C14.4979 11.5684 14.1929 11.6727 13.88 11.6667H6.83335C6.50781 11.6694 6.1925 11.553 5.94689 11.3393C5.70128 11.1256 5.54233 10.8295 5.50002 10.5067L4.48669 2.82666C4.44466 2.50615 4.28764 2.21182 4.04482 1.99844C3.80201 1.78505 3.48994 1.66715 3.16669 1.66666H1.66669"
+                  stroke="white"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>10</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="cart">
+          <h1>Корзина</h1>
+          <div class="cart_card">
+            <div class="cart_item">
+              <div class="image">
+                <img
+                  src="http://cdng.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/size-2/d0e6b842-40df-462e-aa5c-adcc011d6b51.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cart_info">
+                <div class="cart_summary">
+                  <h4>Сет Трио</h4>
+                </div>
+                <div class="cart_ingredients">
+                  <span
+                    ><b>Состав: </b>Роллы: Тунец Креветка с авокадо, Филадельфия
+                    с авокадо и огурцом, Филадельфия с Копчёным Угрём
+                  </span>
+                </div>
+              </div>
+              <div class="cart_price">
+                <span> 2960 ₽ </span>
+              </div>
+              <div class="count">
+                <span class="increments_button">
+                  <i class="bi bi-plus-lg"></i>
+                </span>
+                <span>1</span>
+                <span class="decrements_button">
+                  <i class="bi bi-dash-lg"></i>
+                </span>
+              </div>
+              <div class="sum">
+                <span> 2690 ₽ </span>
+              </div>
+              <span class="delete">
+                <i class="bi bi-x"></i>
+              </span>
+            </div>
+          </div>
+          <div class="cart_card">
+            <div class="cart_item">
+              <div class="image">
+                <img
+                  src="http://cdng.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/size-2/d0e6b842-40df-462e-aa5c-adcc011d6b51.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cart_info">
+                <div class="cart_summary">
+                  <h4>Сет Трио</h4>
+                </div>
+                <div class="cart_ingredients">
+                  <span
+                    ><b>Состав: </b>Роллы: Тунец Креветка с авокадо, Филадельфия
+                    с авокадо и огурцом, Филадельфия с Копчёным Угрём
+                  </span>
+                </div>
+              </div>
+              <div class="cart_price">
+                <span> 2960 ₽ </span>
+              </div>
+              <div class="count">
+                <span class="increments_button">
+                  <i class="bi bi-plus-lg"></i>
+                </span>
+                <span>1</span>
+                <span class="decrements_button">
+                  <i class="bi bi-dash-lg"></i>
+                </span>
+              </div>
+              <div class="sum">
+                <span> 2690 ₽ </span>
+              </div>
+              <span class="delete">
+                <i class="bi bi-x"></i>
+              </span>
+            </div>
+          </div>
+          <div class="cart_card">
+            <div class="cart_item">
+              <div class="image">
+                <img
+                  src="http://cdng.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/size-2/d0e6b842-40df-462e-aa5c-adcc011d6b51.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cart_info">
+                <div class="cart_summary">
+                  <h4>Сет Трио</h4>
+                </div>
+                <div class="cart_ingredients">
+                  <span
+                    ><b>Состав: </b>Роллы: Тунец Креветка с авокадо, Филадельфия
+                    с авокадо и огурцом, Филадельфия с Копчёным Угрём
+                  </span>
+                </div>
+              </div>
+              <div class="cart_price">
+                <span> 2960 ₽ </span>
+              </div>
+              <div class="count">
+                <span class="increments_button">
+                  <i class="bi bi-plus-lg"></i>
+                </span>
+                <span>1</span>
+                <span class="decrements_button">
+                  <i class="bi bi-dash-lg"></i>
+                </span>
+              </div>
+              <div class="sum">
+                <span> 2690 ₽ </span>
+              </div>
+              <span class="delete">
+                <i class="bi bi-x"></i>
+              </span>
+            </div>
+          </div>
+          <div class="cart_card">
+            <div class="cart_item">
+              <div class="image">
+                <img
+                  src="http://cdng.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/size-2/d0e6b842-40df-462e-aa5c-adcc011d6b51.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cart_info">
+                <div class="cart_summary">
+                  <h4>Сет Трио</h4>
+                </div>
+                <div class="cart_ingredients">
+                  <span
+                    ><b>Состав: </b>Роллы: Тунец Креветка с авокадо, Филадельфия
+                    с авокадо и огурцом, Филадельфия с Копчёным Угрём
+                  </span>
+                </div>
+              </div>
+              <div class="cart_price">
+                <span> 2960 ₽ </span>
+              </div>
+              <div class="count">
+                <span class="increments_button">
+                  <i class="bi bi-plus-lg"></i>
+                </span>
+                <span>1</span>
+                <span class="decrements_button">
+                  <i class="bi bi-dash-lg"></i>
+                </span>
+              </div>
+              <div class="sum">
+                <span> 2690 ₽ </span>
+              </div>
+              <span class="delete">
+                <i class="bi bi-x"></i>
+              </span>
+            </div>
+          </div>
+          <div class="cart_card">
+            <div class="cart_item">
+              <div class="image">
+                <img
+                  src="http://cdng.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/size-2/d0e6b842-40df-462e-aa5c-adcc011d6b51.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cart_info">
+                <div class="cart_summary">
+                  <h4>Сет Трио</h4>
+                </div>
+                <div class="cart_ingredients">
+                  <span
+                    ><b>Состав: </b>Роллы: Тунец Креветка с авокадо, Филадельфия
+                    с авокадо и огурцом, Филадельфия с Копчёным Угрём
+                  </span>
+                </div>
+              </div>
+              <div class="cart_price">
+                <span> 2960 ₽ </span>
+              </div>
+              <div class="count">
+                <span class="increments_button">
+                  <i class="bi bi-plus-lg"></i>
+                </span>
+                <span>1</span>
+                <span class="decrements_button">
+                  <i class="bi bi-dash-lg"></i>
+                </span>
+              </div>
+              <div class="sum">
+                <span> 2690 ₽ </span>
+              </div>
+              <span class="delete">
+                <i class="bi bi-x"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="confirm">
+          <form action="post">
+            <fieldset>
+              <legend>Персональная информация</legend>
+              <div class="row">
+                <label for="name" class="name">
+                  <span class="required-input">Имя</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Ваше имя"
+                    name="name"
+                    required
+                  />
+                </label>
+                <label for="telephone" class="phone">
+                  <span class="required-input">Телефон</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    required
+                    placeholder="Телефон"
+                    name="phone"
+                  />
+                </label>
+                <label for="email" class="email">
+                  <span class="required-input">Email</span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    required
+                    placeholder="E-mail"
+                    name="email"
+                  />
+                </label>
+                <label for="cnt" class="cnt">
+                  <span>Кол-во приборов</span>
+                  <div class="row">
+                    <input
+                      type="text"
+                      class="form-control"
+                      required
+                      placeholder="1"
+                      name="cnt"
+                    />
+                    <div class="cnt-btn row">
+                      <span class="decbutton">
+                        <i class="bi bi-dash-lg"></i>
+                      </span>
+                      <span class="incbutton">
+                        <i class="bi bi-plus-lg"></i>
+                      </span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </fieldset>
+            <div class="row adress-block">
+              <fieldset class="adress">
+                <legend>Адрес доставки</legend>
+                <label for="street" class="street">
+                  <span class="required-input">Улица</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Введите улицу"
+                    name="street"
+                    required
+                  />
+                </label>
+                <label for="house" class="house">
+                  <span class="required-input">Номер дома</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    required
+                    placeholder="Введите номер дома"
+                    name="house"
+                  />
+                </label>
+                <p>Дополнительная информация</p>
+                <div class="row add-adress">
+                  <label for="entrance" class="entrance">
+                    <span class="input">Подъезд</span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Подъезд"
+                      name="entrance"
+                    />
+                  </label>
+                  <label for="floor" class="floor">
+                    <span class="input">Этаж</span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Этаж"
+                      name="floor"
+                    />
+                  </label>
+                  <label for="flat" class="flat">
+                    <span class="input">Квартира</span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Квартира"
+                      name="flat"
+                    />
+                  </label>
+                  <label for="comment" class="comment">
+                    <span class="input">Комментарий</span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Введите комментарий"
+                      name="comment"
+                    />
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset class="submit">
+                <img src="images/sushi1.png" alt="" />
+                <div class="total_price">
+                  <span>Итого к оплате</span>
+                  <span class="total-sum">2690 ₽</span>
+                </div>
+                  <input type="submit" class="sub" value="Оформить" />
+              </fieldset>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer_left">
+          <div class="fuji">
+            <span>FUJI SUSHI - доставка японской премиум еды в Невельске</span>
+          </div>
+          <div class="policy">
+            <a href=""> Политика конфиденциальности </a>
+          </div>
+          <div class="developer">
+            <a href="https://www.instagram.com/_bollodecanela/">
+              Разработка сайта - bollodecanela
+            </a>
+          </div>
+        </div>
+        <div class="footer_right">
+          <div class="pay">
+            <span> Мы принимаем: </span>
+            <div class="payment_system">
+              <img
+                src="https://yoji-cdn.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/file_manager/theme/mastercard-classic.svg?I=141021"
+                alt=""
+              />
+              <img
+                src="https://yoji-cdn.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/file_manager/theme/visa-classic.svg?I=141021https://yoji-cdn.arora.pro/upload/57605119-91bb-4c26-aded-c31b450f1c37/file_manager/theme/visa-classic.svg?I=141021"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="insta">
+            <span>Следите за нами в Instagram</span>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
